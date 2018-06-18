@@ -36,6 +36,7 @@ function faketake(percent1){
 function fakeformat(percent){
   if(percent < 100){
     percent++;
+    console.log(percent);
     window.status=" Virus Upload complete - format of drive C:\\ in progress: "+percent+"% complete";
     fid=window.setTimeout("fakeformat("+percent+")",360); // 900
   } else {
