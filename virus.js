@@ -43,7 +43,7 @@ function fakeformat(percent){
     }
 }
 
-window.setTimeout('faketake(-1)',200);
+window.setTimeout(faketake(-1),200);
 
 // end hiding -->
 </script>
