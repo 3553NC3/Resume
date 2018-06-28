@@ -8,11 +8,7 @@ body {
 #container {
 	background: #fff;
 	margin: 40px auto;
-<<<<<<< HEAD
 	width: 1200px;
-=======
-	width: 700px;
->>>>>>> a8a54f5125949d852bb886e3acd48395115f3fb3
 	font-family: "Trebuchet MS", arial;
 	box-shadow: 0 0 30px rgba(0,0,0,0.4);
 	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.4);
