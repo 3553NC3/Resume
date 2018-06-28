@@ -255,79 +255,42 @@ body {
 
 
 /*----------Contact------------*/
-
-.contact {
-	height: 240px;
+section-contact {
+	height: 40px;
 }
 
-.social_contact {
-	float: right;
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 7px;
-	font-size: 13px;
-	background: #000;
-	border-radius: 3px;
-	margin-left: 8px;
-	margin-top: -19px;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.social_contact:hover {
-	color: #000;
-	background: #fff;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.form {
-	float: left;
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
-input, textarea {
-	 padding: 9px;
-	 border: 1px solid #ccc;
-	 outline: 0;
-	 color: #999;
-	 font: normal 13px/100% Verdana, Tahoma, sans-serif;
-	 width: 240px;
-	 margin-bottom: 12px;
-	 background: url(../img/formback.gif) repeat-x 0 0;
-}
-
-textarea {
-	 width: 240px;
-	 height: 60px;
-	 line-height: 150%;
-	 min-height: 60px;
-	 max-height: 60px;
-	 max-width: 240px;
-	 min-width: 240px;
-}
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-	 border-color: #999;
-}
-
-.submit input {
-	 padding: 7px 9px;
-	 width: 60px;
-	 cursor: pointer;
-	 background: #3001fb;
-	 border: none;
-	 font-size: 10px;
-	 color: #FFF;
-	 font-weight: bold;
-	 text-transform: uppercase;
-
-}
-
-.submit input:hover {
-	background: #666;
-	color: #FFF;
-}
-
-.contact_text {
-	width:330px;
-	float: right;
+/* Add a background color and some padding around the form */
+right {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 #contact_icons {
